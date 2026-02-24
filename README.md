@@ -25,43 +25,46 @@ Menginstal Python di komputer Anda memungkinkan:
 
 ### Panduan Instalasi Python Langkah demi Langkah
 **Mengunduh Python**
-* Buka situs resmi Python.
+* Buka [situs resmi Python](https://www.python.org/).
 * Unduh installer Python terbaru yang stabil sesuai dengan sistem operasi Anda (Windows, macOS, atau Linux).
 
 Instalasi Python di Windows
-* **Download Installer**: Kunjungi halaman unduhan Python dan pilih file executable installer (.exe) terbaru.
+* **Download Installer**: Kunjungi [halaman unduhan Python](https://www.python.org/downloads/windows/) dan pilih file executable installer (.exe) terbaru.
 * **Menjalankan Installer**: Klik dua kali file .exe yang telah diunduh. **Sangat penting**: Centang opsi "Add Python to PATH" sebelum klik Install Now.
 * **Verifikasi Instalasi**: Buka Command Prompt (CMD) dan ketik perintah:
-
-  python --version
-
+```
+python --version
+```
 Jika instalasi berhasil, akan muncul informasi versi Python.
 
 Instalasi Python di macOS
 * **Download Installer**: Kunjungi halaman unduhan Python dan unduh file installer dengan ekstensi .pkg.
 * **Menjalankan Installer**: Klik dua kali file .pkg dan ikuti instruksi di layar. Pastikan Python ditambahkan ke PATH sistem.
 * **Verifikasi Instalasi**: Buka Terminal dan ketik perintah:
-
-  python3 --version
+```
+python3 --version
+```
 
 Instalasi Python di Linux
 * **Cek Python yang Sudah Terpasang**: Banyak distribusi Linux sudah menyertakan Python secara default. Untuk mengeceknya:
-
-  python3 --version
-
+```
+python3 --version
+```
 * **Instalasi via Package Manager**:
   * Untuk Ubuntu/Debian:
+    ```
     sudo apt update
     sudo apt install python3
-
+    ```
   * Untuk Fedora:
+    ```
     sudo dnf install python3
-
+    ```
 * **Verifikasi Instalasi**: Setelah instalasi, cek kembali dengan:
-
-  python3 --version
-
-## #Memilih dan Mengonfigurasi Editor untuk Pemrograman Python
+```
+python3 --version
+```
+### Memilih dan Mengonfigurasi Editor untuk Pemrograman Python
 **Apa itu Editor Python?**
 
 Editor Python (juga disebut IDE - Integrated Development Environment atau editor kode) adalah alat untuk menulis, menjalankan, dan men-debug kode Python dengan efisien. Editor yang baik menyediakan fitur seperti syntax highlighting, auto-complete, debugging tools, dan dukungan integrasi ekstensi/plugin.
@@ -82,17 +85,17 @@ Instalasi Plugin Python di VS Code
   * Pilih ekstensi resmi dari **Microsoft**, lalu klik **Install**.
 
 * **Konfigurasi Ekstensi Python Setelah Instalasi**:
-  * Set Interpreter: Tekan Ctrl+Shift+P, ketik Python: Select Interpreter, lalu pilih interpreter Python yang sesuai.
-  * Aktifkan Linter: Gunakan tools seperti Pylint, Flake8, atau Black.
-  * Tambahkan Formatter Otomatis: Install Black atau autopep8 untuk formatting otomatis saat menyimpan file.
+  * Set Interpreter: Tekan **Ctrl+Shift+P**, ketik **_Python: Select Interpreter_**, lalu pilih interpreter Python yang sesuai.
+  * **Aktifkan Linter**: Gunakan tools seperti _Pylint_, _Flake8_, atau _Black_.
+  * **Tambahkan Formatter Otomatis**: Install **Black** atau **autopep8** untuk formatting otomatis saat menyimpan file.
 
 * **Plugin Tambahan Opsional**:
-  * Code Runner: Menjalankan snippet kode dengan cepat.
-  * GitLens: Visualisasi riwayat Git di dalam editor.
-  * Bracket Pair Colorizer: Memberi warna pada pasangan tanda kurung, membuat kode lebih mudah dibaca.
+  * **Code Runner**: Menjalankan snippet kode dengan cepat.
+  * **GitLens**: Visualisasi riwayat Git di dalam editor.
+  * **Bracket Pair Colorizer**: Memberi warna pada pasangan tanda kurung, membuat kode lebih mudah dibaca.
 
 ### Catatan Tambahan
 
-* Gunakan Virtual Environment (venv) untuk mengelola dependensi proyek Python secara terpisah.
-* Biasakan menggunakan pip atau pipenv untuk instalasi library eksternal.
+* Gunakan **Virtual Environment** (venv) untuk mengelola dependensi proyek Python secara terpisah.
+* Biasakan menggunakan _pip_ atau _pipenv_ untuk instalasi library eksternal.
 * Rajin memperbarui Python dan plugin untuk menjaga kompatibilitas dan keamanan.
