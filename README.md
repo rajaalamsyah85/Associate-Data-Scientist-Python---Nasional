@@ -38,7 +38,7 @@ python --version
 Jika instalasi berhasil, akan muncul informasi versi Python.
 
 Instalasi Python di macOS
-* **Download Installer**: Kunjungi halaman unduhan Python dan unduh file installer dengan ekstensi .pkg.
+* **Download Installer**: Kunjungi [halaman unduhan Python](https://www.python.org/downloads/windows/) dan unduh file installer dengan ekstensi .pkg.
 * **Menjalankan Installer**: Klik dua kali file .pkg dan ikuti instruksi di layar. Pastikan Python ditambahkan ke PATH sistem.
 * **Verifikasi Instalasi**: Buka Terminal dan ketik perintah:
 ```
